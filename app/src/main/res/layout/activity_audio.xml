@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Audio">
+
+    <RelativeLayout
+        android:id="@+id/background"
+        android:layout_width="368dp"
+        android:layout_height="526dp"
+        android:background="@color/bgCol"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/demeraraimg02"
+            android:layout_width="236dp"
+            android:layout_height="190dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:contentDescription="DHB Image 02"
+            app:srcCompat="@drawable/demerara02" />
+
+        <ImageView
+            android:id="@+id/demeraraimg03"
+            android:layout_width="245dp"
+            android:layout_height="168dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="82dp"
+            android:contentDescription="DHB Image 03"
+            app:srcCompat="@drawable/demerara03" />
+
+        <Button
+            android:id="@+id/playaudio"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="212dp"
+            android:text="@string/playaudio" />
+
+        <Button
+            android:id="@+id/playaudio2"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="22dp"
+            android:text="@string/playaudio2" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

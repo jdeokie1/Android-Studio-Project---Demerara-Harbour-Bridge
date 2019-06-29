@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Transportation">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="526dp"
+        android:background="@color/bgCol"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/ferryservice"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:contentDescription="DHB Ferry Service"
+            android:text="@string/ferryservice"
+            android:textSize="26sp" />
+
+        <EditText
+            android:id="@+id/ferryprompt"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="124dp"
+            android:contentDescription="Allows user to specify number of required tickets"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/subheading2"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/timezone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="195dp"
+            android:contentDescription="User prompt to select time zone for travel"
+            android:text="@string/timezone"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:layout_width="264dp"
+            android:layout_height="125dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="156dp">
+
+            <RadioButton
+                android:id="@+id/nonpeaktravel"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:contentDescription="Non-peak travel radio button"
+                android:text="@string/nonpeaktravel" />
+
+            <RadioButton
+                android:id="@+id/peaktravel"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="Peak travel time zone"
+                android:text="@string/peaktravel" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnferrycost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="100dp"
+            android:contentDescription="Calculate cost of ferry tickets based on time zone"
+            android:text="@string/btnferrycost" />
+
+        <TextView
+            android:id="@+id/results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="54dp"
+            android:layout_marginStart="19dp"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,44 @@
+<!--Created by Eric Deokie -->
+<resources>
+    <string name="app_name">Demerara Harbour Bridge</string>
+    <string name="txtSplash">Demerara Harbour Bridge</string>
+    <string name="description">The Demerara Harbour bridge was commissioned in July 1978 and serves as one of the main transportation links between Regions 3 and 4. It is the only floating bridge that exists in Guyana and is approximately 6km in length. It is stabilized by pontoons that run parallel to the bridge in the water and is capable of retracting to allow the passage of ships and other small marine vessels. Automobile vehicles are permitted across the bridge upon the payment of a toll fee. The bridge also features a bi-directional footpath and is a popular tourist destination.</string>
+    <string name="transportation">Transportation</string>
+    <string name="admission">Admissions</string>
+    <string name="audio">Demerara Harbour Bridge</string>
+    <string name="webinformation">Website</string>
+    <string name="credits">All credit for images and information used goes to the respective authors and owners.</string>
+
+    <string name="seniors">Seniors</string>
+    <string name="minors">Minors</string>
+    <string name="vetereans">Veterans</string>
+    <string name="adults">Regular Adults</string>
+    <string name="subheading2">Please enter the number of tickets needed - </string>
+    <string name="tickets"></string>
+    <string name="prompt1">Enter the amount of tickets </string>
+
+    <string name="groups">Select group below: </string>
+    <string name="btncost">Display Cost</string>
+    <string name="result"></string>
+    <string name="membership">Are you a member?</string>
+    <string name="ferryservice">Demerara Harbour Bridge Ferry Service </string>
+    <string name="ferryprompt">Enter the number of Ferry Tickets!</string>
+    <string name="timezone">Select time zone for travel below: </string>
+    <string name="radiogroup">TimeZone Selection </string>
+    <string name="peaktravel">Peak</string>
+    <string name="nonpeaktravel">Non-Peak </string>
+    <string name="btnferrycost">Display Ferry Ticket(s) Cost</string>
+    <string name="results"></string>
+
+    <string name="demeraraimg01">Demerara Harbour Bridge 01</string>
+    <string name="demeraraimg02">Demerara Harbour Bridge 02</string>
+    <string name="playaudio">Play Calypso Song</string>
+    <string name="playaudio2">Play National Anthem</string>
+    <string-array name="admissionchoices">
+        <item>Seniors</item>
+        <item>Minors</item>
+        <item>Veterans</item>
+        <item>Regular Adults</item>
+    </string-array>
+
+</resources>

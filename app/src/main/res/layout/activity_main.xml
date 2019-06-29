@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgCol"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="ListView "
+        android:drawableRight="@drawable/ic_launcher_guyana"
+        android:text="@+id/details"
+        android:textSize="20sp" />
+
+</android.support.constraint.ConstraintLayout>
